@@ -97,6 +97,7 @@ poetry run pytest
 - Docker
 - OpenAI SDK
 - Mistral - mistral-7b Model
+- PyTest
 
 **Para remover a aplicação rodar:**
 ```bash

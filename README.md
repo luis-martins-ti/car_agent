@@ -25,6 +25,7 @@ Utiliza:
 ### 🧱 STEP 1 - Build e start com Docker
 
 **Renomeie o arquivo .env.example para .env, insira sua chave Open Router em OPENROUTER_API_KEY e execute no terminal:**
+
 **Caso necessário gere sua chave gratuitamente em openrouter.ai**
 
 ```bash

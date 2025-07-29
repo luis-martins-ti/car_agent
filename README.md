@@ -5,7 +5,9 @@ Utiliza:
 
 **Python + SQLAlchemy + PostgreSQL**
 
-**OpenAI GPT (via gpt-3.5-turbo)**
+**OpenAI SDK (via Open Router AI)**
+
+**Mistral - mistral-7b Model**
 
 **Model Context Protocol (MCP) proprietário para organizar o contexto**
 

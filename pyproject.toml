@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "car-agent"
+version = "0.1.0"
+description = "Agente de consulta de carros via terminal com LLM"
+authors = ["Luis Martins <luis.martins.ti@gmail.com>"]
+packages = [{ include = "car_agent" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0"
+psycopg2-binary = "^2.9"
+faker = "^24.0"
+rich = "^13.7"
+openai = "^1.30"
+pydantic = "^2.7"
+
+[tool.poetry.scripts]
+car-agent = "main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

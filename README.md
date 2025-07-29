@@ -95,7 +95,8 @@ poetry run pytest
 - PostgreSQL
 - Sql Alchemy
 - Docker
-- OpenAI GPT
+- OpenAI SDK
+- Mistral - mistral-7b Model
 
 **Para remover a aplicação rodar:**
 ```bash

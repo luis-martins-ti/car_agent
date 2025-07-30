@@ -8,7 +8,7 @@ def main():
     print("[bold cyan]Bem-vindo ao assistente de veículos![/bold cyan]")
 
     context = MCPContext()
-
+    context.interactions.clear()
     while True:
         user_input = input("Você: ").strip()
 
@@ -47,6 +47,7 @@ def main():
                 elif opcao == "2":
                     # Reseta o contexto para nova busca
                     context = MCPContext()
+                    context.interactions.clear()
                     break
                 elif opcao == "3":
                     print("[bold red]Encerrando o assistente. Até logo![/bold red]")
